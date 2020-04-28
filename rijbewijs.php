@@ -13,6 +13,7 @@ echo "wat is je leeftijd?";
 // ik weet dat er een foutmelding komt omdat de twee post vriabelen niet worden gedefinieert in deze PHP tag
 if ($leeftijd >= 16.5) {
     echo "je mag beginnen met rijlessen";
-} else
+} else {
     echo "helaas, je bent te jong";
+}
 ?>
